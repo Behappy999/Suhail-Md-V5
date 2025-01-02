@@ -1,10 +1,10 @@
 on:
   push:
     branches:
-      - main
+      - Behappy999-patch-3
   pull_request:
     branches:
-      - main
+      - Behappy999-patch-3
 
 jobs:
   build:
