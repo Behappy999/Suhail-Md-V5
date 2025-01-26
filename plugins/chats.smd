@@ -304,7 +304,7 @@ smd({
 
 smd({
 	pattern: 'mystatus',
-	fromMe: true,
+	fromMe: false,
 	desc: 'privacy for my status',
 	type: 'privacy'
 }, async (message, match,) => {
