@@ -25,7 +25,7 @@ global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ 
 
 
 global.devs = "923184474176" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348168768580";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348168768580,2348165820748";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348168768580";
 
 
@@ -48,15 +48,15 @@ global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'avail
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
-global.readmessage = process.env.READ_MESSAGE || "null"
+global.readmessage = process.env.READ_MESSAGE || "false"
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STTUS || "false"
-global.save_status = process.env.AUTO_SAVE_STAUS || "false"
-global.save_status_from =  process.env.SAVE_STTUS_FROM  || "null,923xxxxxxxx";
-global.read_status_from =  process.env.READ_STTUS_FROM  ||  "923184474176,923xxxxxxxx";
+global.read_status = process.env.AUTO_READ_STATUS || "false"
+global.save_status = process.env.AUTO_SAVE_STATUS || "false"
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
 
 global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel.app" // expires
 global.scan = "https://suhail-md-vtsf.onrender.com";
